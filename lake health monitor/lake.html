@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Health Monitor</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lake Health Monitor</h1>
+    </header>
+    <main>
+        <h2>Current pH Level: <span id="phValue">7.0</span></h2>
+        <button onclick="getAdvice()">Reason and How to Restore It</button>
+        <div id="chatbot"></div>
+        <button id="toggleSoundButton" onclick="toggleVoice()">Turn Off Sound</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lake Conservation Project</p>
+    </footer>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
